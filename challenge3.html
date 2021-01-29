@@ -1,0 +1,59 @@
+<script src = "challenge3.js"></script>
+<link rel="stylesheet" href="challenge3.css">
+<div class="background">
+    <div class ="top">
+        <div class = "Home">
+            <h1>HOME</h1>
+            <div class = "Score">
+                <button onclick="Sub()" class="button">-</button>
+                <div id ="d1">0</div>
+                <button onclick="Add()" class="button">+</button>
+            </div>
+            <button onclick="ResetSH()" class="button2">Reset</button>
+        </div>
+        <div class = "Guest">
+            <h1>GUEST</h1>
+            <div class = "Score">
+                <button onclick="SubG()" class="button">-</button>
+                <div id ="d2">0</div>
+                <button onclick="AddG()" class="button">+</button>
+            </div>
+            <button onclick="ResetSG()" class="button2">Reset</button>
+        </div>
+    </div>
+    <div class = "middle">
+        <div class ="Period">
+            <h1>Period</h1>
+            <div class = "PeriodNumber">
+                <button onclick="PeriodSub()" class="button1">-1</button>
+                <div id = "d4">1</div>
+                <button onclick="PeriodAdd()" class="button1">+1</button>
+            </div>
+            <button onclick="Reset()" class="button2">Reset</button>
+        </div>
+    </div>
+    <div class = "bottom">
+        <div class = "Penalty">
+            <h1>Penalty List</h1>
+            <input type="text" id="d5" placeholder="Please type">
+<!--          <div id = "d3">Please type</div> -->  
+            <div class="PenaltyAddClear">
+                <button onclick="AddAnsH()" class="button2">Add</button>
+                <button onclick="clearH()" class="button2">Clear</button>
+            </div>
+        </div>
+        <div id="PenaltyList1">
+        </div>
+        <div class = "Penalty">
+            <h1>Penalty List</h1>
+            <input type="text" id="d5" placeholder="Please type">
+<!--         <div id = "d5">Please type</div> -->  
+            <div class="PenaltyAddClear">
+                <button onclick="AddAnsG()" class="button2">Add</button>     
+                <button onclick="clearG()" class="button2">Clear</button>
+            </div> 
+        </div>
+        <div id="PenaltyList">
+        </div>
+    </div>
+</div>

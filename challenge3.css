@@ -1,0 +1,97 @@
+.background{
+    background-color:  rgb(2, 14, 106);
+    width:800px;
+    height:600px;
+    margin:40px;
+    margin-left:300px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.Home, .Guest, .period, .Penalty{
+    display:flex;
+    flex-direction: column;
+}
+.PeriodNumber{
+    display:flex;
+    flex-direction: row;
+}
+.top, .bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#d1, #d2, #d4{
+    background-color:rgb(0, 0, 0);
+    width:100px;
+    height:80px;
+}
+#d3, #d5 {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    width:150px;
+    height:40px;
+    margin:10px;
+    color:white;
+}
+.Home,.Guest, .Penalty, .Period, .Penalty{
+    margin-top:15px;
+    align-items: center;
+    align-self: center;
+}
+.Score, .PeriodNumber{
+    align-items: center;
+    align-self: center;
+}
+.button{
+    width:30px;
+    height:60px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.button1{
+    width:33px;
+    height:60px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right:5px;
+    margin-left:5px;
+}
+.Score{
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+.Period{
+    font-size: 40px;
+}
+#d1, #d2 ,#d4{
+    color:rgb(250, 180, 2);
+}
+#d3, #d5{
+    color:rgb(115, 255, 120);
+}
+#d1, #d2, #d3, #d4, #d5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.PenaltyAddClear{
+    display: flex;
+    flex-direction: row;
+}
+.button2{
+    width:70px;
+    height:30px;
+    font-size: 20px;
+    margin-top:10px;
+    border-radius: 10px;
+    margin-left:5px;
+}
+#PenaltyList, #PenaltyList1{
+    color:white;
+    margin-top:50px;
+}
