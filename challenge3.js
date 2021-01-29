@@ -57,11 +57,11 @@ function ResetSG(){
 }
 function AddAnsH(){
     var AddH = document.getElementById("PenaltyList1")
-    var InputIdG = document.getElementById("d5").value
-    AddH.innerHTML+=InputIdG+"<br>"
+    var InputIdH = document.getElementById("d5").value
+    AddH.innerHTML+=InputIdH+"<br>"
 }
 function AddAnsG(){
     var AddG = document.getElementById("PenaltyList")
-    var InputIdG = document.getElementById("d5").value
+    var InputIdG = document.getElementById("d6").value
     AddG.innerHTML+=InputIdG+"<br>"
 }
