@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+}
+.movieContainer{
+    display:flex;
+    flex-direction: column;
+}
+.sixMovie{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: center;
+}
+.total{
+    background-color: rgb(213, 255, 255);
+}
+h1{
+    text-align: center;
+    padding-top:30px;
+}
+.newMovie{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#NewName, #NewWeb{
+    font-size: 30px;
+    width:500px;
+    height:50px;
+    border-radius: 20px;
+    margin:10px;
+}
+#Add{
+    font-size: 30px;
+    width:250px;
+    height:50px;
+    border-radius: 20px;
+    margin:10px;
+}
+p{
+    text-align: center;
+    margin-top:15px;
+    font-weight: bold;
+    font-size:2rem;
+}
+img{
+    object-fit: cover;
+    width:350px;
+    height:550px;
+}
+
