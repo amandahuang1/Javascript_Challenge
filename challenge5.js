@@ -30,9 +30,7 @@ document.querySelector(".sixMovie").innerHTML = `<div class="movieContainer"><p 
 
 
 function Add(){
-    document.querySelector(".sixMovie").innerHTML = " ";
-    number.unshift(1)
-    number.pop()
+
 
     var NewName= document.querySelector("#NewName").value;
     movie.unshift(NewName)
