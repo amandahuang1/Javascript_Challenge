@@ -59,3 +59,97 @@ HINT: Loops can be nested inside another loop
 
 GOOD LUCK 🤹‍♂️
 */
+
+//1.
+document.write("Loop 1:<br/><br/>");
+for(i=1; i<6; i++){
+      document.write("I love homework <br>");
+}
+document.write("<br/>");
+
+//2.
+document.write("Loop 2:<br/><br/>");
+for(i=0; i<4; i++){
+      document.write(i);
+      document.write("<br>");
+}
+document.write("<br/>");
+
+//3.
+document.write("Loop 3:<br/><br/>");
+for(i=15; i<31; i++){
+      if(i%3==0){
+            document.write(i);
+            document.write("<br>");
+      }
+}
+document.write("<br/>");
+
+//4.
+document.write("Loop 4:<br/><br/>");
+for(x=0; x<4; x++){
+      for(i=0;i<4;i++){
+            document.write(" O ");
+      }
+      document.write("<br>");
+}
+document.write("<br/>");
+
+//5.
+document.write("Loop 5:<br/><br/>");
+for(i=1; i<= 7; i++){
+      for(j=1; j<=i; j++){
+            document.write(" * ");
+      }
+      document.write("<br/>");
+}
+document.write("<br/>");
+
+//6.
+document.write("Loop 6:<br/><br/>");
+for(i=1; i<= 7; i++){
+      for(k=6; k>=i; k--){ 
+            document.write("~ "); 
+      }
+      for(j=1; j<=i; j++){
+            document.write(" * ");
+      }
+      document.write("<br/>");
+}
+document.write("<br/>");
+
+//7.
+document.write("Loop 7:<br/><br/>");
+      document.write(" * ");
+      document.write("<br/><br/>");
+
+      for(i=1; i<= 2; i++){
+            for(j=1; j<=i; j++){
+                  document.write(" * ");
+            }
+            document.write("<br/>");
+      }  
+      document.write("<br/>");
+      
+      for(i=1; i<= 3; i++){
+            for(j=1; j<=i; j++){
+                  document.write(" * ");
+            }
+            document.write("<br/>");
+      } 
+      document.write("<br/>");
+
+      for(i=1; i<= 4; i++){
+            for(j=1; j<=i; j++){
+                  document.write(" * ");
+            }
+            document.write("<br/>");
+      } 
+      document.write("<br/>");
+
+      for(i=1; i<= 5; i++){
+            for(j=1; j<=i; j++){
+                  document.write(" * ");
+            }
+            document.write("<br/>");
+      } 
