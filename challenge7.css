@@ -1,0 +1,105 @@
+*{
+    margin:0;
+}
+.Total{
+    background-image: url("background.png");
+    background-size: 100% 100%;
+    height:100%;
+    width:100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color:azure;
+    text-align: center;
+    font-style: oblique;
+}
+.ButtonDiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Button{
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+}
+.invisible{
+    display:none;
+}
+.visible{
+    display:block;
+}
+.Content{
+    color:white;
+    line-height: 2;
+}
+.ContentButton{
+    margin-top:150px;
+    margin-left:300px;
+    margin-right:300px;
+}
+.ButtonContent1{
+    margin:0px;
+    margin-top:40px;
+}
+.ButtonContent3-1, .ButtonContent3-2, .ButtonContent5-1, .ButtonContent5-2, .ButtonContent5-3{
+    height:200px;
+    width:350px;
+    border-color: black;
+    border-radius: 5px;
+    margin:0px;
+    margin-top:40px;
+}
+.gif{
+    width:100px;
+    height:100px;
+}
+.ButtonContent2-1, .ButtonContent2-2{
+    height:100px;
+    width:300px;
+    font-size:30px;
+    border-radius: 20px;
+    margin-top:15%;
+}
+.ButtonContent4-1, .ButtonContent4-2, .ButtonContent4-3, .ButtonContent4-4, .ButtonContent4-5{
+    height:150px;
+    width:300px;
+    font-size:25px;
+    border-radius: 20px;
+    margin-top:100px;
+}
+.Content6-1, .Content5-6{
+    width:300px;
+    height:200px;
+    margin-left:200px;
+    margin-top:50px;
+}
+.ButtonContent6-1, .ButtonContent6-2{
+    height:150px;
+    width:300px;
+    font-size:25px;
+    border-radius: 20px;   
+    margin-top:15%;
+}
+.ButtonContent1-2, .ButtonContent1-3,.ButtonContent1-4{
+    margin-left:auto;
+    width:50px;
+    height:50px;
+    margin-top:10px;
+}
+.ButtonContent6-3, .ButtonContent6-4{
+    height:120px;
+    width:300px;
+    font-size:30px;
+    border-radius: 20px;
+    margin-top:15%;
+}
+.Content5-7, .Content7-1, .Content6-5, .Content6-6{
+    height:200px;
+    width:350px;
+    margin-left:200px;
+    margin-top:40px;
+}
