@@ -1,0 +1,129 @@
+<head>
+    <link rel="stylesheet" href="DjMixPad.css">
+    <title>DJ Mix Pad</title>
+</head>
+<body>
+    <div class="total">
+
+        <div class="up">
+            <div class="upleft">
+                <div class="name1">
+                    <h3>Song track 1: </h3>
+                    <h4>Song name:</h4>
+                    <h5>&nbsp; Summertime Blue</h5>
+                </div>
+                <div class="buttonDiv">
+                    <button onclick="play1()" type="button" class="buttonSL"><img src="Start.png"></button>
+                    <button onclick="paused1()" type="button" class="buttonPL"><img src="paused.png"></button>
+                    <button onclick="replay1()" type="button" class="buttonRL"><img src="replay.png"></button>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="bar">
+                    <h4>Volume</h4>
+                    <div class="rangeSlider">
+                        <input class="slider1" orient="vertical" type="range" min="1" max="100" value="50">
+                    </div>
+                </div>
+                
+                <div class="bar">
+                    <h4>Speed</h4>
+                    <div class="rangeSlider">
+                        <input class="slider2" orient="vertical" type="range" min="1" max="100" value="50">
+                    </div>
+                </div>
+
+                <img class="background" src="BG.png">
+
+                <div class="bar">
+                    <h4>Volume</h4>
+                    <div class="rangeSlider">
+                        <input class="slider3" orient="vertical" type="range" min="1" max="100" value="50">
+                    </div>                    
+                </div>             
+
+                <div class="bar">
+                    <h4>Speed</h4>
+                    <div class="rangeSlider">
+                        <input class="slider4" orient="vertical" type="range" min="1" max="100" value="50">
+                    </div>
+                </div>                
+            </div>
+            <div class="upright">
+                <div class="name2">
+                    <h3>Song track 2: </h3>
+                    <h4>Song name: </h4>
+                    <h5>&nbsp; On the ground </h5>
+                </div>
+                <div class="buttonDiv">
+                    <button onclick="play2()" type="button" class="buttonSR"><img src="Start.png"></button>
+                    <button onclick="paused2()" type="button" class="buttonPR"><img src="paused.png"></button>
+                    <button onclick="replay2()" type="button" class="buttonRR"><img src="replay.png"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="down">
+            <div class="left">
+                <div class="mode">
+                    <div class="modeName">
+                        <h2>Mode1</h2>
+                    </div>
+                    <div class="squareDiv">
+                        <button onclick="modeButton1()" type="button" class="squareButton1"></button>
+                        <button onclick="modeButton2()" type="button" class="squareButton2"></button>
+                        <button onclick="modeButton3()" type="button" class="squareButton3"></button>
+                        <button onclick="modeButton4()" type="button" class="squareButton4"></button>
+                        <button onclick="modeButton5()" type="button" class="squareButton5"></button>
+                        <button onclick="modeButton6()" type="button" class="squareButton6"></button>
+                    </div>   
+                </div>
+                <div class="mode">
+                    <div class="modeName">
+                        <h2>Mode2</h2>
+                    </div>
+                    <div class="squareDiv">
+                        <button onclick="modeButton7()" type="button" class="squareButton7"></button>
+                        <button onclick="modeButton8()" type="button" class="squareButton8"></button>
+                        <button onclick="modeButton9()" type="button" class="squareButton9"></button>
+                        <button onclick="modeButton10()" type="button" class="squareButton10"></button>
+                        <button onclick="modeButton11()" type="button" class="squareButton11"></button>
+                        <button onclick="modeButton12()" type="button" class="squareButton12"></button>
+                    </div>    
+                </div>
+                <div class="mode">
+                    <div class="modeName">
+                        <h2>Mode3</h2>
+                    </div>
+                    <div class="squareDiv">
+                        <button onclick="modeButton13()" type="button" class="squareButton13"></button>
+                        <button onclick="modeButton14()" type="button" class="squareButton14"></button>
+                        <button onclick="modeButton15()" type="button" class="squareButton15"></button>
+                        <button onclick="modeButton16()" type="button" class="squareButton16"></button>
+                        <button onclick="modeButton17()" type="button" class="squareButton17"></button>
+                        <button onclick="modeButton18()" type="button" class="squareButton18"></button>
+                    </div>                   
+                </div>
+                <div class="mode">
+                    <div class="modeName">
+                        <h2>Mode4</h2>
+                    </div>
+                    <div class="squareDiv">
+                        <button onclick="modeButton19()" type="button" class="squareButton19"></button>
+                        <button onclick="modeButton20()" type="button" class="squareButton20"></button>
+                        <button onclick="modeButton21()" type="button" class="squareButton21"></button>
+                        <button onclick="modeButton22()" type="button" class="squareButton22"></button>
+                        <button onclick="modeButton23()" type="button" class="squareButton23"></button>
+                        <button onclick="modeButton24()" type="button" class="squareButton24"></button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+<script src = "DjMixPad.js"></script>
